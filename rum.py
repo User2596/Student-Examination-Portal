@@ -2,11 +2,11 @@ import csv
 import re
 import matplotlib.pyplot as plt
 import numpy as np
-import STUDENT
-import COURSE
-import BATCH
-import DEPARTMENT
-import EXAMINATION
+import student
+import course
+import batch
+import department
+import examination
 def main():
     print("1. To create, update, remove or to generate a report of a student, enter '1'.")
     print("2. To create or view details and statistics of a course, enter '2'.")
