@@ -69,7 +69,7 @@ def main():
             std_list=[]
             n=int(input("Enter the number of students to be entered: "))
             for i in range(n):
-                std_id=input("Enter the dtudent ID: ")
+                std_id=input("Enter the student ID: ")
                 std_list.append(std_id)
             batch.new_batch(batch_id,batch_name,dept_name,crse_list,std_list)
         elif(u==2):
